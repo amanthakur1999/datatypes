@@ -10,14 +10,14 @@ We used three keyword to declares variables.
 ```
 var firstname = 'Aman'
 var lastname ='Thakur'
-alert(firstname+' '+lastname)
+console.log(firstname+' '+lastname) // Aman Thakur
 ```
 ### let
 ``` 
 let name;
 name = "Aman";
 name="Thakur";// change value
-alert(name);
+console.log(name); // Thakur
 
 ```
 We can put any value in the veriable 
@@ -56,7 +56,7 @@ variable declared using const are called "constant".
 They cannot be reassigned.
 ```
 const myBirthday = '15.5.1999';
-myBirthday = '14.12.1999;// error can't reassing the constant!
+myBirthday = '14.12.1999;// error can't reassign the constant!
 
 ```
 
