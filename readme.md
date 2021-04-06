@@ -46,13 +46,12 @@ Example of  incorrect variable name :
 ```
 let 1a;//cannot start with a digit 
  let my-name ;// hyphens '-' aren't allowed in the name
- 
+ ```
+
 ### const
 To declare a constant (Unchanging) variable , use const instead of let.
- ```
- const pi = 3.14;
+ `const pi = 3.14;`
 
- ```
 variable declared using const are called "constant". 
 They cannot be reassigned.
 ```
