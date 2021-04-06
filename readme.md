@@ -8,10 +8,61 @@ We used three keyword to declares variables.
 
 ### var 
 ```
-var name = 'Aman'
+var firstname = 'Aman'
+var lastname ='Thakur'
+alert(firstname+' '+lastname)
+```
+### let
+``` 
+let name;
+name = "Aman";
+name="Thakur";// change value
+alert(name);
+
+```
+We can put any value in the veriable 
+We can also change it as many times as we want.
+
+```
+let name = 'Aman';
+let name = 'thakur'//repeated 'let'leads to an error
+
+```
+A variable should be declared only once.
+A repeated declaration of the same variable is an error.
+so , we should declare a variable once and then refer to it without let.
+
+```
+let message ="Hello Aman"
+let hello;
+ hello = message; // copy "Hello Aman" from message into hello 
+
+alert(message); // Hello Aman
+alert (hello); // Hello Aman
+```
+we can also declare two variables and copy data one into other.
+
+Example of  incorrect variable name :
+```
+let 1a;//cannot start with a digit 
+ let my-name ;// hyphens '-' aren't allowed in the name
+ 
+### const
+To declare a constant (Unchanging) variable , use const instead of let.
+ ```
+ const pi = 3.14;
+
+ ```
+variable declared using const are called "constant". 
+They cannot be reassigned.
+```
+const myBirthday = '15.5.1999';
+myBirthday = '14.12.1999;// error can't reassing the constant!
+
 ```
 
-#Datatypes
+
+# Datatypes
 
 In javascript there are two types of data types
 1. Primitive values
