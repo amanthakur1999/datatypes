@@ -76,6 +76,45 @@ In javascript there are two types of data types
 
 #### Number
 The number type represent both integer and floating point numbers.
+```
+1 let a = 123;
+a =234.5;
+```
+There are many operations for number , e.g. multiplication * , division / , addition + , subtraction - , and so on.
+
+#### String
+ A string in javaScript must be surrounded by quotes.
+  ``` 
+  let str1 = " hello Aman" ; // hello Aman ;
+  let str2 = ' hello Aman'  ;// hello Aman ;
+  let str3= `hello Aman ,${str1}`; // hello Aman , hello Aman ;
+  ```
+  In JavaScript, there are three type of quotes .
+  Double quotes: " Hello Aman";
+  Single quotes : "Hello Aman";
+  Backticks : `Hello Aman`;
+
+  ```
+  let name = "Aman" ;
+  // embed a variable
+   console.log (`Hello ,${name}!`); // Hello , Aman!;
+   console.log ("Hello ,${name}!); // Hello ,${name}! ( Double quotes are do nothing);
+
+   ```
+   #### Boolean (logical type) 
+    The boolean type has only two value :`true` and `false`.
+    This type is commonly used to store value yes/no values: `true` means "yes ,correct" , `false` means "no , incorrect".
+
+    ```
+    let isGreater = 4>1; 
+    console.log (isGreater) // true;
+    ```
+
+
+
+   
+
+
 
 ### Non-primitive 
 1. Objects
